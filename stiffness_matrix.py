@@ -14,8 +14,5 @@ def stiffness_matrix(alpha, b, c, H, M):
 
         A[k:k+2, k:k+2] += Ak
 
-    A[([0, -1], [0, -1])] = 1
-    A[([0, -1], [1, -2])] = 0
-
-    return A
+    return A[1:-1, 1:-1]
 

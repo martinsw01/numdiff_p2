@@ -25,3 +25,6 @@ def load_vector(f, X, M, g0=0, g1=0):
     F[-2] += g1/(X[-1]-X[-2])
 
     return F[1:-1]
+
+def load_vector_with_gradient(f, X, M, g0=0, g1=0):
+    pass

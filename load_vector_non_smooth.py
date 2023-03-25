@@ -1,5 +1,4 @@
 import numpy as np
-
 from quadrature import gaussian_quad
 
 
